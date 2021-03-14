@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011DCD6E25FD2B8C00B36605 /* TitleLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD6D25FD2B8C00B36605 /* TitleLines.swift */; };
+		011DCD7225FD2BB900B36605 /* SubtitleLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD7125FD2BB900B36605 /* SubtitleLines.swift */; };
+		011DCD7525FD2BD500B36605 /* MainTitlesLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD7425FD2BD500B36605 /* MainTitlesLines.swift */; };
+		011DCD7A25FD31C100B36605 /* MainMenuCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD7925FD31C100B36605 /* MainMenuCards.swift */; };
+		011DCD7F25FD4DA100B36605 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD7E25FD4DA100B36605 /* ExercisesView.swift */; };
+		011DCD8525FD522300B36605 /* PageTitleLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD8425FD522300B36605 /* PageTitleLines.swift */; };
+		011DCD9625FD5BCA00B36605 /* ScheduledWorkoutsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD9525FD5BCA00B36605 /* ScheduledWorkoutsSection.swift */; };
+		011DCD9925FD5C2500B36605 /* InstantWorkoutsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD9825FD5C2500B36605 /* InstantWorkoutsSection.swift */; };
+		011DCD9D25FD5C8200B36605 /* ExercisesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD9C25FD5C8200B36605 /* ExercisesSection.swift */; };
 		01D1045B25FCE1D100142ADA /* CaliSportsSwitfUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1045A25FCE1D100142ADA /* CaliSportsSwitfUIApp.swift */; };
 		01D1045D25FCE1D100142ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1045C25FCE1D100142ADA /* ContentView.swift */; };
 		01D1045F25FCE1D300142ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D1045E25FCE1D300142ADA /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		011DCD6D25FD2B8C00B36605 /* TitleLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLines.swift; sourceTree = "<group>"; };
+		011DCD7125FD2BB900B36605 /* SubtitleLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleLines.swift; sourceTree = "<group>"; };
+		011DCD7425FD2BD500B36605 /* MainTitlesLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitlesLines.swift; sourceTree = "<group>"; };
+		011DCD7925FD31C100B36605 /* MainMenuCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuCards.swift; sourceTree = "<group>"; };
+		011DCD7E25FD4DA100B36605 /* ExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
+		011DCD8425FD522300B36605 /* PageTitleLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleLines.swift; sourceTree = "<group>"; };
+		011DCD9525FD5BCA00B36605 /* ScheduledWorkoutsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledWorkoutsSection.swift; sourceTree = "<group>"; };
+		011DCD9825FD5C2500B36605 /* InstantWorkoutsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantWorkoutsSection.swift; sourceTree = "<group>"; };
+		011DCD9C25FD5C8200B36605 /* ExercisesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesSection.swift; sourceTree = "<group>"; };
 		01D1045725FCE1D100142ADA /* CaliSportsSwitfUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaliSportsSwitfUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D1045A25FCE1D100142ADA /* CaliSportsSwitfUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaliSportsSwitfUIApp.swift; sourceTree = "<group>"; };
 		01D1045C25FCE1D100142ADA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +51,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011DCD7025FD2B9A00B36605 /* Individual Lines */ = {
+			isa = PBXGroup;
+			children = (
+				011DCD7425FD2BD500B36605 /* MainTitlesLines.swift */,
+				011DCD6D25FD2B8C00B36605 /* TitleLines.swift */,
+				011DCD8425FD522300B36605 /* PageTitleLines.swift */,
+				011DCD7125FD2BB900B36605 /* SubtitleLines.swift */,
+			);
+			path = "Individual Lines";
+			sourceTree = "<group>";
+		};
+		011DCD8125FD4DD900B36605 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				011DCD7925FD31C100B36605 /* MainMenuCards.swift */,
+				011DCD7E25FD4DA100B36605 /* ExercisesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		011DCD8B25FD578500B36605 /* ExercisesPageSections */ = {
+			isa = PBXGroup;
+			children = (
+				011DCD9525FD5BCA00B36605 /* ScheduledWorkoutsSection.swift */,
+				011DCD9825FD5C2500B36605 /* InstantWorkoutsSection.swift */,
+				011DCD9C25FD5C8200B36605 /* ExercisesSection.swift */,
+			);
+			path = ExercisesPageSections;
+			sourceTree = "<group>";
+		};
 		01D1044E25FCE1D100142ADA = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +102,9 @@
 			children = (
 				01D1045A25FCE1D100142ADA /* CaliSportsSwitfUIApp.swift */,
 				01D1045C25FCE1D100142ADA /* ContentView.swift */,
+				011DCD8125FD4DD900B36605 /* Views */,
+				011DCD8B25FD578500B36605 /* ExercisesPageSections */,
+				011DCD7025FD2B9A00B36605 /* Individual Lines */,
 				01D1045E25FCE1D300142ADA /* Assets.xcassets */,
 				01D1046325FCE1D300142ADA /* Info.plist */,
 				01D1046025FCE1D300142ADA /* Preview Content */,
@@ -138,8 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011DCD7525FD2BD500B36605 /* MainTitlesLines.swift in Sources */,
+				011DCD9625FD5BCA00B36605 /* ScheduledWorkoutsSection.swift in Sources */,
+				011DCD6E25FD2B8C00B36605 /* TitleLines.swift in Sources */,
 				01D1045D25FCE1D100142ADA /* ContentView.swift in Sources */,
+				011DCD7225FD2BB900B36605 /* SubtitleLines.swift in Sources */,
 				01D1045B25FCE1D100142ADA /* CaliSportsSwitfUIApp.swift in Sources */,
+				011DCD9D25FD5C8200B36605 /* ExercisesSection.swift in Sources */,
+				011DCD8525FD522300B36605 /* PageTitleLines.swift in Sources */,
+				011DCD9925FD5C2500B36605 /* InstantWorkoutsSection.swift in Sources */,
+				011DCD7F25FD4DA100B36605 /* ExercisesView.swift in Sources */,
+				011DCD7A25FD31C100B36605 /* MainMenuCards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
