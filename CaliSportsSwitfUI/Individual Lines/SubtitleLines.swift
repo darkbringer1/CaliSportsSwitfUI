@@ -25,5 +25,6 @@ struct SubtitleLines: View {
 struct SubtitleLines_Previews: PreviewProvider {
     static var previews: some View {
         SubtitleLines(subtitleText: "-This is a subtitle line")
+            .previewLayout(.sizeThatFits)
     }
 }

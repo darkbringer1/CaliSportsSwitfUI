@@ -75,7 +75,7 @@ struct MainMenuCards: View {
                     Image(systemName: "gearshape.2.fill").foregroundColor(.primary)
                 }))
             }//:SCROLLVIEW
-            
+            .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 0)
         }//:NAVIGATIONVIEW
         
         
