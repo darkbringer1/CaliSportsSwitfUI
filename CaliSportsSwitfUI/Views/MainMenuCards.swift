@@ -14,7 +14,7 @@ struct MainMenuCards: View {
                 VStack {
                     //MARK: -SECTION
                     GroupBox(label: TitleLines(titleText: "Exercises")) {
-                        Divider().padding(.vertical, 4)
+                        Divider()
                         SubtitleLines(subtitleText: "-Scheduled Workouts")
                         SubtitleLines(subtitleText: "-Instant Workouts")
                         SubtitleLines(subtitleText: "-Exercises")
@@ -25,7 +25,7 @@ struct MainMenuCards: View {
                     //MARK: -SECTION
                     
                     GroupBox(label: TitleLines(titleText: "Routines")) {
-                        Divider().padding(.vertical, 4)
+                        Divider()
                         SubtitleLines(subtitleText: "-Programs")
                         SubtitleLines(subtitleText: "-Moves")
                         
@@ -35,7 +35,7 @@ struct MainMenuCards: View {
                     
                     //MARK: -SECTION
                     GroupBox(label: TitleLines(titleText: "Calendar")) {
-                        Divider().padding(.vertical, 4)
+                        Divider()
                         SubtitleLines(subtitleText: "-Monday")
                         SubtitleLines(subtitleText: "-Tuesday")
                         SubtitleLines(subtitleText: "-Wednesday")
@@ -50,7 +50,7 @@ struct MainMenuCards: View {
                     
                     //MARK: -SECTION
                     GroupBox(label: TitleLines(titleText: "Plans")) {
-                        Divider().padding(.vertical, 4)
+                        Divider()
                         SubtitleLines(subtitleText: "-Basic Plans")
                         SubtitleLines(subtitleText: "-Pro Plans")
                         SubtitleLines(subtitleText: "-Custom Plans")
@@ -60,7 +60,7 @@ struct MainMenuCards: View {
                     
                     //MARK: -SECTION
                     GroupBox(label: TitleLines(titleText: "Logs/Tracking")) {
-                        Divider().padding(.vertical, 4)
+                        Divider()
                         SubtitleLines(subtitleText: "-Daily Tracking")
                         SubtitleLines(subtitleText: "-Progress Tracking")
                         SubtitleLines(subtitleText: "-Movement Tracking")

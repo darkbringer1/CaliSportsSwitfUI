@@ -11,17 +11,16 @@ struct ScheduledWorkoutsSection: View {
     var body: some View {
         
         VStack {
-            
         PageTitleLines(pageTitleText: "Scheduled Workouts")
         
         GroupBox {
-            SubtitleLines(subtitleText: "Today - \("HH:mm")")
+            SubtitleButtonLines(subtitleText: "Today - \("HH:mm")")
         }//:GROUPBOX
         .frame(height: 50)
         .clipShape(RoundedRectangle(cornerRadius: 15))
         .padding(.horizontal, 20)
-        GroupBox {
-            SubtitleLines(subtitleText: "Tomorrow - \("HH:mm")")
+            GroupBox {
+            SubtitleButtonLines(subtitleText: "Tomorrow - \("HH:mm")")
         }//:GROUPBOX
         .frame(height: 50)
         .clipShape(RoundedRectangle(cornerRadius: 15))
