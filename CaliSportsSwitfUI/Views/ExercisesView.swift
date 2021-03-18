@@ -9,39 +9,32 @@ import SwiftUI
 
 struct ExercisesView: View {
     var body: some View {
-        NavigationView{
+        NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack {
-                    
-                    
-                    //MARK: -SECTION
-                    
+                    // MARK: - SECTION
+
                     ScheduledWorkoutsSection()
-                    
-                    //MARK: -SECTION
-                    
+
+                    // MARK: - SECTION
+
                     InstantWorkoutsSection()
-                    
-                    //MARK: -SECTION
-                    
+
+                    // MARK: - SECTION
+
                     ExercisesSection()
-                    
-                }//:VSTACK
-                .navigationBarTitle(Text("CaliSports"),displayMode: .large)
+                } //: VSTACK
+                .navigationBarTitle(Text("CaliSports"), displayMode: .large)
                 .navigationBarItems(trailing:
-                                        Button(
-                                            action: {
-                                                
-                                            },
-                                            label: {
-                                                Image(systemName: "gearshape.2.fill").foregroundColor(.primary)
-                                            }
-                                    ))
-            }//:SCROLLVIEW
-            
-        }//:NAVIGATIONVIEW
-        
-        
+                    Button(
+                        action: {
+                        },
+                        label: {
+                            Image(systemName: "gearshape.2.fill").foregroundColor(.primary)
+                        }
+                    ))
+            } //: SCROLLVIEW
+        } //: NAVIGATIONVIEW
     }
 }
 

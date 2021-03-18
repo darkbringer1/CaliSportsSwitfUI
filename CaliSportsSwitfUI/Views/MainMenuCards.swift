@@ -23,9 +23,7 @@ struct MainMenuCards: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .padding(.horizontal, 10)
                     .onTapGesture(perform: {
-                        print("Tapped")
-                    }
-                    )
+                    })
 
                     // MARK: - SECTION
 
@@ -74,6 +72,7 @@ struct MainMenuCards: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .padding(.horizontal, 10)
                 } //: VSTACK
+
                 .navigationBarTitle(Text("SportsApp"), displayMode: .large)
                 .navigationBarItems(trailing: Button(action: {}, label: {
                     Image(systemName: "gearshape.2.fill").foregroundColor(.primary)

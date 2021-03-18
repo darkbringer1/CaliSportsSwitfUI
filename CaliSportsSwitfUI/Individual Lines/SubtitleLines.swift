@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SubtitleLines: View {
-    var subtitleText : String
+    var subtitleText: String
     var body: some View {
         HStack {
             Text(subtitleText)

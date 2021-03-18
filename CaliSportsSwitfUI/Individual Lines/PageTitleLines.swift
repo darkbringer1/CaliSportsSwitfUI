@@ -8,24 +8,23 @@
 import SwiftUI
 
 struct PageTitleLines: View {
-    //MARK: -PROPERTIES
-    var pageTitleText : String
-    //MARK: -BODY
-    
+    // MARK: - PROPERTIES
+
+    var pageTitleText: String
+
+    // MARK: - BODY
+
     var body: some View {
-       
-            Text(pageTitleText)
-                .font(.headline)
-                .fontWeight(.medium)
-                .frame(alignment: .center)
-    //            .shadow(color: .black, radius: 10, x: 0.0, y: 0.0)
-                .padding( 4)
-            
-        
+        Text(pageTitleText)
+            .font(.headline)
+            .fontWeight(.medium)
+            .frame(alignment: .center)
+            //            .shadow(color: .black, radius: 10, x: 0.0, y: 0.0)
+            .padding(4)
     }
 }
 
-    //MARK: -PREVIEW
+// MARK: - PREVIEW
 
 struct PageTitleLines_Previews: PreviewProvider {
     static var previews: some View {
@@ -33,4 +32,3 @@ struct PageTitleLines_Previews: PreviewProvider {
             .previewLayout(.sizeThatFits)
     }
 }
-

@@ -100,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				01B2E0F8260106DB0069371B /* CalendarView.swift */,
+				011DCD8B25FD578500B36605 /* ExercisesPageSections */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -125,7 +126,6 @@
 			children = (
 				01B2E0FF260114460069371B /* Sections */,
 				011DCD8125FD4DD900B36605 /* Views */,
-				011DCD8B25FD578500B36605 /* ExercisesPageSections */,
 				011DCD7025FD2B9A00B36605 /* Individual Lines */,
 				01D1045E25FCE1D300142ADA /* Assets.xcassets */,
 				01D1046325FCE1D300142ADA /* Info.plist */,

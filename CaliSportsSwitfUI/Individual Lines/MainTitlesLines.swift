@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct MainTitlesLines: View {
-    //MARK: -PROPERTIES
-    var mainTitleText : String
-    //MARK: -BODY
+    // MARK: - PROPERTIES
+
+    var mainTitleText: String
+
+    // MARK: - BODY
+
     var body: some View {
         Text(mainTitleText)
             .font(.largeTitle)
@@ -20,7 +23,9 @@ struct MainTitlesLines: View {
             .padding()
     }
 }
-    //MARK: -PREVIEW
+
+// MARK: - PREVIEW
+
 struct MainTitles_Previews: PreviewProvider {
     static var previews: some View {
         MainTitlesLines(mainTitleText: "This is a main title")
