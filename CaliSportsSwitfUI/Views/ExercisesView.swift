@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ExercisesView: View {
     var body: some View {
-        NavigationView {
+        
             ScrollView(.vertical, showsIndicators: false) {
                 VStack {
                     // MARK: - SECTION
 
-                    ScheduledWorkoutsSection()
+					ScheduledWorkoutsSection().padding(.top, 20)
 
                     // MARK: - SECTION
 
@@ -24,7 +24,7 @@ struct ExercisesView: View {
 
                     ExercisesSection()
                 } //: VSTACK
-                .navigationBarTitle(Text("CaliSports"), displayMode: .large)
+                .navigationBarTitle(Text("Exercises"), displayMode: .inline)
                 .navigationBarItems(trailing:
                     Button(
                         action: {
@@ -34,7 +34,7 @@ struct ExercisesView: View {
                         }
                     ))
             } //: SCROLLVIEW
-        } //: NAVIGATIONVIEW
+        
     }
 }
 

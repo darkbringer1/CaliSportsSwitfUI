@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ExercisesSection: View {
     var body: some View {
-        VStack{
+        VStack {
             PageTitleLines(pageTitleText: "Upper Body")
-            
+
             GroupBox {
                 SubtitleButtonLines(subtitleText: "Push-Ups")
                 SubtitleButtonLines(subtitleText: "Pull-Ups")
@@ -20,8 +20,8 @@ struct ExercisesSection: View {
                 SubtitleButtonLines(subtitleText: "Handstand Push-Ups")
                 SubtitleButtonLines(subtitleText: "Forearm Exercises")
                 SubtitleButtonLines(subtitleText: "Neck Training")
-            }//:GROUPBOX
-            
+            } //: GROUPBOX
+
             .clipShape(RoundedRectangle(cornerRadius: 15))
             .padding(.horizontal, 20)
             PageTitleLines(pageTitleText: "Lower Body")
@@ -29,7 +29,7 @@ struct ExercisesSection: View {
                 SubtitleButtonLines(subtitleText: "Squats")
                 SubtitleButtonLines(subtitleText: "Lower Leg Training")
                 SubtitleButtonLines(subtitleText: "Leg Raises")
-            }//:GROUPBOX
+            } //: GROUPBOX
             .clipShape(RoundedRectangle(cornerRadius: 15))
             .padding(.horizontal, 20)
             PageTitleLines(pageTitleText: "Core")
@@ -40,7 +40,7 @@ struct ExercisesSection: View {
                 SubtitleButtonLines(subtitleText: "HumanFlags")
                 SubtitleButtonLines(subtitleText: "Plance")
                 SubtitleButtonLines(subtitleText: "Active Stretching")
-            }//:GROUPBOX
+            } //: GROUPBOX
             .clipShape(RoundedRectangle(cornerRadius: 15))
             .padding(.horizontal, 20)
         }

@@ -25,6 +25,10 @@
 		01D1045D25FCE1D100142ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1045C25FCE1D100142ADA /* ContentView.swift */; };
 		01D1045F25FCE1D300142ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D1045E25FCE1D300142ADA /* Assets.xcassets */; };
 		01D1046225FCE1D300142ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D1046125FCE1D300142ADA /* Preview Assets.xcassets */; };
+		D8BFB336261DD39500A76628 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFB335261DD39500A76628 /* TrackingView.swift */; };
+		D8BFB339261DD3B200A76628 /* PlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFB338261DD3B200A76628 /* PlansView.swift */; };
+		D8BFB344261DD5E200A76628 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFB343261DD5E200A76628 /* SettingsPage.swift */; };
+		D8BFB347261DDA3900A76628 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFB346261DDA3900A76628 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,10 @@
 		01D1045E25FCE1D300142ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01D1046125FCE1D300142ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01D1046325FCE1D300142ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BFB335261DD39500A76628 /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		D8BFB338261DD3B200A76628 /* PlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansView.swift; sourceTree = "<group>"; };
+		D8BFB343261DD5E200A76628 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		D8BFB346261DDA3900A76628 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +84,13 @@
 		011DCD8125FD4DD900B36605 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				01D1045A25FCE1D100142ADA /* CaliSportsSwitfUIApp.swift */,
 				01D1045C25FCE1D100142ADA /* ContentView.swift */,
-				011DCD7925FD31C100B36605 /* MainMenuCards.swift */,
 				011DCD7E25FD4DA100B36605 /* ExercisesView.swift */,
 				01B2E0F52601067C0069371B /* RoutinesView.swift */,
 				01B2E101260114DC0069371B /* CalendarPage.swift */,
+				D8BFB338261DD3B200A76628 /* PlansView.swift */,
+				D8BFB335261DD39500A76628 /* TrackingView.swift */,
+				D8BFB346261DDA3900A76628 /* TimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,6 +103,25 @@
 				011DCD9C25FD5C8200B36605 /* ExercisesSection.swift */,
 			);
 			path = ExercisesPageSections;
+			sourceTree = "<group>";
+		};
+		012B29A02603A3400076F618 /* CaliSportsHierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				01B2E0FF260114460069371B /* Sections */,
+				011DCD7025FD2B9A00B36605 /* Individual Lines */,
+				012B29A12603A3680076F618 /* Pages */,
+			);
+			path = CaliSportsHierarchy;
+			sourceTree = "<group>";
+		};
+		012B29A12603A3680076F618 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				011DCD7925FD31C100B36605 /* MainMenuCards.swift */,
+				D8BFB343261DD5E200A76628 /* SettingsPage.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 		01B2E0FF260114460069371B /* Sections */ = {
@@ -124,9 +152,9 @@
 		01D1045925FCE1D100142ADA /* CaliSportsSwitfUI */ = {
 			isa = PBXGroup;
 			children = (
-				01B2E0FF260114460069371B /* Sections */,
+				01D1045A25FCE1D100142ADA /* CaliSportsSwitfUIApp.swift */,
+				012B29A02603A3400076F618 /* CaliSportsHierarchy */,
 				011DCD8125FD4DD900B36605 /* Views */,
-				011DCD7025FD2B9A00B36605 /* Individual Lines */,
 				01D1045E25FCE1D300142ADA /* Assets.xcassets */,
 				01D1046325FCE1D300142ADA /* Info.plist */,
 				01D1046025FCE1D300142ADA /* Preview Content */,
@@ -226,9 +254,13 @@
 				011DCD7225FD2BB900B36605 /* SubtitleButtonLines.swift in Sources */,
 				01D1045B25FCE1D100142ADA /* CaliSportsSwitfUIApp.swift in Sources */,
 				011DCD9D25FD5C8200B36605 /* ExercisesSection.swift in Sources */,
+				D8BFB344261DD5E200A76628 /* SettingsPage.swift in Sources */,
+				D8BFB347261DDA3900A76628 /* TimerView.swift in Sources */,
 				01B2E0F9260106DB0069371B /* CalendarView.swift in Sources */,
 				011DCD8525FD522300B36605 /* PageTitleLines.swift in Sources */,
+				D8BFB336261DD39500A76628 /* TrackingView.swift in Sources */,
 				011DCD9925FD5C2500B36605 /* InstantWorkoutsSection.swift in Sources */,
+				D8BFB339261DD3B200A76628 /* PlansView.swift in Sources */,
 				01BD28A525FEAAAF008415FB /* SubtitleLines.swift in Sources */,
 				011DCD7F25FD4DA100B36605 /* ExercisesView.swift in Sources */,
 				011DCD7A25FD31C100B36605 /* MainMenuCards.swift in Sources */,
@@ -364,7 +396,7 @@
 				DEVELOPMENT_TEAM = 7LSPRM5R8H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CaliSportsSwitfUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +418,7 @@
 				DEVELOPMENT_TEAM = 7LSPRM5R8H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CaliSportsSwitfUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
