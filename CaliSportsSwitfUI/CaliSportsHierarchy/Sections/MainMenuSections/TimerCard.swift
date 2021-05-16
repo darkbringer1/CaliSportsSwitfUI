@@ -18,7 +18,7 @@ struct TimerCard: View {
 					SubtitleLines(subtitleText: "-Take me to a simple chronometer")
 				}
 			} //: GROUPBOX
-		}).foregroundColor(.black)
+		}).foregroundColor(.primary)
 		
 		.clipShape(RoundedRectangle(cornerRadius: 15))
 		.padding(.horizontal, 10)

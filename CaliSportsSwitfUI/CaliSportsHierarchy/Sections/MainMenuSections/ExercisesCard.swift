@@ -10,7 +10,7 @@ import SwiftUI
 struct ExercisesCard: View {
     var body: some View {
 		NavigationLink(
-			destination: ExercisesView(),
+			destination: ExercisesPage(),
 			label: {
 				GroupBox(label: TitleLines(titleText: "Exercises")) {
 					Divider()
@@ -18,7 +18,7 @@ struct ExercisesCard: View {
 					SubtitleLines(subtitleText: "-Instant Workouts")
 					SubtitleLines(subtitleText: "-Exercises")
 				} //: GROUPBOX
-			}).foregroundColor(.black)
+			}).foregroundColor(.primary)
 			
 			.clipShape(RoundedRectangle(cornerRadius: 15))
 			.padding(.horizontal, 10)

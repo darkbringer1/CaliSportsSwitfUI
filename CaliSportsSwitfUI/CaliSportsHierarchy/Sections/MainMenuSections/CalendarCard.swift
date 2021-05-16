@@ -22,7 +22,7 @@ struct CalendarCard: View {
 					SubtitleLines(subtitleText: "-Saturday")
 					SubtitleLines(subtitleText: "-Sunday")
 				} //: GROUPBOX
-			}).foregroundColor(.black)
+			}).foregroundColor(.primary)
 			
 			.clipShape(RoundedRectangle(cornerRadius: 15))
 			.padding(.horizontal, 10)

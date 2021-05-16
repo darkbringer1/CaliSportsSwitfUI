@@ -11,7 +11,6 @@
 		011DCD7225FD2BB900B36605 /* SubtitleButtonLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD7125FD2BB900B36605 /* SubtitleButtonLines.swift */; };
 		011DCD7525FD2BD500B36605 /* MainTitlesLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD7425FD2BD500B36605 /* MainTitlesLines.swift */; };
 		011DCD7A25FD31C100B36605 /* MainMenuCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD7925FD31C100B36605 /* MainMenuCards.swift */; };
-		011DCD7F25FD4DA100B36605 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD7E25FD4DA100B36605 /* ExercisesView.swift */; };
 		011DCD8525FD522300B36605 /* PageTitleLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD8425FD522300B36605 /* PageTitleLines.swift */; };
 		011DCD9625FD5BCA00B36605 /* ScheduledWorkoutsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD9525FD5BCA00B36605 /* ScheduledWorkoutsSection.swift */; };
 		011DCD9925FD5C2500B36605 /* InstantWorkoutsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DCD9825FD5C2500B36605 /* InstantWorkoutsSection.swift */; };
@@ -31,6 +30,8 @@
 		D88CF99B26219B6B0068DD7D /* PlansCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CF99A26219B6B0068DD7D /* PlansCard.swift */; };
 		D88CF99E26219B8D0068DD7D /* TrackingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CF99D26219B8D0068DD7D /* TrackingCard.swift */; };
 		D88CF9A126219BCE0068DD7D /* TimerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CF9A026219BCE0068DD7D /* TimerCard.swift */; };
+		D89BB59C2646B80E00BBF4CD /* ExercisesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89BB59B2646B80E00BBF4CD /* ExercisesPage.swift */; };
+		D8A0184B263AC97400C876D9 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0184A263AC97400C876D9 /* LoginPage.swift */; };
 		D8BFB336261DD39500A76628 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFB335261DD39500A76628 /* TrackingView.swift */; };
 		D8BFB339261DD3B200A76628 /* PlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFB338261DD3B200A76628 /* PlansView.swift */; };
 		D8BFB344261DD5E200A76628 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFB343261DD5E200A76628 /* SettingsPage.swift */; };
@@ -42,7 +43,6 @@
 		011DCD7125FD2BB900B36605 /* SubtitleButtonLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleButtonLines.swift; sourceTree = "<group>"; };
 		011DCD7425FD2BD500B36605 /* MainTitlesLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitlesLines.swift; sourceTree = "<group>"; };
 		011DCD7925FD31C100B36605 /* MainMenuCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuCards.swift; sourceTree = "<group>"; };
-		011DCD7E25FD4DA100B36605 /* ExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
 		011DCD8425FD522300B36605 /* PageTitleLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleLines.swift; sourceTree = "<group>"; };
 		011DCD9525FD5BCA00B36605 /* ScheduledWorkoutsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledWorkoutsSection.swift; sourceTree = "<group>"; };
 		011DCD9825FD5C2500B36605 /* InstantWorkoutsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantWorkoutsSection.swift; sourceTree = "<group>"; };
@@ -63,6 +63,8 @@
 		D88CF99A26219B6B0068DD7D /* PlansCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansCard.swift; sourceTree = "<group>"; };
 		D88CF99D26219B8D0068DD7D /* TrackingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingCard.swift; sourceTree = "<group>"; };
 		D88CF9A026219BCE0068DD7D /* TimerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCard.swift; sourceTree = "<group>"; };
+		D89BB59B2646B80E00BBF4CD /* ExercisesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesPage.swift; sourceTree = "<group>"; };
+		D8A0184A263AC97400C876D9 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		D8BFB335261DD39500A76628 /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
 		D8BFB338261DD3B200A76628 /* PlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansView.swift; sourceTree = "<group>"; };
 		D8BFB343261DD5E200A76628 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
@@ -97,9 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				01D1045C25FCE1D100142ADA /* ContentView.swift */,
-				011DCD7E25FD4DA100B36605 /* ExercisesView.swift */,
 				01B2E0F52601067C0069371B /* RoutinesView.swift */,
-				01B2E101260114DC0069371B /* CalendarPage.swift */,
 				D8BFB338261DD3B200A76628 /* PlansView.swift */,
 				D8BFB335261DD39500A76628 /* TrackingView.swift */,
 				01B2E0F8260106DB0069371B /* CalendarView.swift */,
@@ -131,7 +131,10 @@
 		012B29A12603A3680076F618 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				D8A0184A263AC97400C876D9 /* LoginPage.swift */,
 				011DCD7925FD31C100B36605 /* MainMenuCards.swift */,
+				01B2E101260114DC0069371B /* CalendarPage.swift */,
+				D89BB59B2646B80E00BBF4CD /* ExercisesPage.swift */,
 				D8BFB343261DD5E200A76628 /* SettingsPage.swift */,
 			);
 			path = Pages;
@@ -275,8 +278,10 @@
 				011DCD7525FD2BD500B36605 /* MainTitlesLines.swift in Sources */,
 				01B2E0F62601067C0069371B /* RoutinesView.swift in Sources */,
 				011DCD9625FD5BCA00B36605 /* ScheduledWorkoutsSection.swift in Sources */,
+				D89BB59C2646B80E00BBF4CD /* ExercisesPage.swift in Sources */,
 				011DCD6E25FD2B8C00B36605 /* TitleLines.swift in Sources */,
 				01D1045D25FCE1D100142ADA /* ContentView.swift in Sources */,
+				D8A0184B263AC97400C876D9 /* LoginPage.swift in Sources */,
 				011DCD7225FD2BB900B36605 /* SubtitleButtonLines.swift in Sources */,
 				D88CF99526219B1B0068DD7D /* RoutinesCard.swift in Sources */,
 				D88CF99126219ADD0068DD7D /* ExercisesCard.swift in Sources */,
@@ -293,7 +298,6 @@
 				D8BFB339261DD3B200A76628 /* PlansView.swift in Sources */,
 				D88CF9A126219BCE0068DD7D /* TimerCard.swift in Sources */,
 				01BD28A525FEAAAF008415FB /* SubtitleLines.swift in Sources */,
-				011DCD7F25FD4DA100B36605 /* ExercisesView.swift in Sources */,
 				D88CF99B26219B6B0068DD7D /* PlansCard.swift in Sources */,
 				011DCD7A25FD31C100B36605 /* MainMenuCards.swift in Sources */,
 			);

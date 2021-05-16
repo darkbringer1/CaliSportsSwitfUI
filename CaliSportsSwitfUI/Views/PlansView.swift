@@ -9,7 +9,12 @@ import SwiftUI
 
 struct PlansView: View {
     var body: some View {
-        Text("Plans View")
+		VStack {
+			Text("Plans View")
+		}
+		.navigationBarItems(trailing: NavigationLink(destination: SettingsPage(), label: {
+			Image(systemName: "gearshape.2.fill").foregroundColor(.primary)
+		}))
     }
 }
 

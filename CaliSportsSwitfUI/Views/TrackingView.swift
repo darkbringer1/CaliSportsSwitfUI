@@ -9,7 +9,12 @@ import SwiftUI
 
 struct TrackingView: View {
     var body: some View {
-        Text("Tracking/Logging View")
+		VStack {
+			Text("Tracking/Logging View")
+		}
+		.navigationBarItems(trailing: NavigationLink(destination: SettingsPage(), label: {
+			Image(systemName: "gearshape.2.fill").foregroundColor(.primary)
+		}))
     }
 }
 

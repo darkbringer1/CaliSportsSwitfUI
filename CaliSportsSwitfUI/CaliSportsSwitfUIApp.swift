@@ -11,7 +11,7 @@ import SwiftUI
 struct CaliSportsSwitfUIApp: App {
     var body: some Scene {
         WindowGroup {
-            MainMenuCards()
+            LoginPage()
         }
     }
 }

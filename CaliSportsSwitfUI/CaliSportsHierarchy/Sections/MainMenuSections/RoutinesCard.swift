@@ -17,7 +17,7 @@ struct RoutinesCard: View {
 				SubtitleLines(subtitleText: "-Programs")
 				SubtitleLines(subtitleText: "-Moves")
 			} //: GROUPBOX
-		}).foregroundColor(.black)
+		}).foregroundColor(.primary)
 		
 		.clipShape(RoundedRectangle(cornerRadius: 15))
 		.padding(.horizontal, 10)

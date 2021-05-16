@@ -18,7 +18,7 @@ struct PlansCard: View {
 					SubtitleLines(subtitleText: "-Pro Plans")
 					SubtitleLines(subtitleText: "-Custom Plans")
 				} //: GROUPBOX
-			}).foregroundColor(.black)
+			}).foregroundColor(.primary)
 			
 			.clipShape(RoundedRectangle(cornerRadius: 15))
 			.padding(.horizontal, 10)

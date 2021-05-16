@@ -15,80 +15,99 @@ struct SettingsPage: View {
 	
 	var body: some View {
 		NavigationView {
-			VStack(alignment: .center, spacing: 0) {
+			VStack(spacing: 0) {
 				// MARK: - HEADER
 				
-				VStack(alignment: .center, spacing: 5) {
-					Image(systemName: "lungs")
-						.resizable()
-						.scaledToFit()
-						.frame(width: 100, height: 100, alignment: .center)
-						.shadow(color: .orange, radius: 3, x: 0, y: 4)
+				ZStack(alignment: .center) {
+					LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing)
+						.frame(maxHeight: 350)
+						.edgesIgnoringSafeArea(.all)
+					VStack(spacing: 5) {
+						Image(systemName: "lungs")
+							.resizable()
+							.scaledToFit()
+							.frame(width: 100, height: 100, alignment: .center)
+							.shadow(color: .orange, radius: 3, x: 0, y: 4)
+						
+						Text("Sports App".uppercased())
+							.font(.system(.title, design: .serif))
+							.fontWeight(.bold)
+							.foregroundColor(.primary)
+					}
 					
-					Text("Sports App".uppercased())
-						.font(.system(.title, design: .serif))
-						.fontWeight(.bold)
-						.foregroundColor(.primary)
-				}
-				.padding(.top, -35)
-				.padding(.bottom, 20)
-				Form{
+					.frame(maxWidth: 200, maxHeight: 200)
+					.padding(.top, -225)
+					.padding(.bottom, 0)
+				} //: ZSTACK
+				Form {
 					// MARK: - SECTION #1
-					Section(header: Text("General Settings")){
+					
+					Section(header: Text("General Settings")) {
 						Toggle(isOn: $enableNotification) {
 							Text("Enable notifications")
 						}
 						Toggle(isOn: $backgroundRefresh) {
 							Text("Background Refresh")
 						}
-						
-						
-					}
+					} //: SECTION 1
+					
 					// MARK: - SECTION #2
-					Section(header: Text("Application")){
+					
+					Section(header: Text("Application")) {
 						if enableNotification {
-							HStack{
+							HStack {
 								Text("Product").foregroundColor(Color.gray)
 								Spacer()
 								Text("Sports App")
 							}
-							HStack{
+							HStack {
 								Text("Compatibility").foregroundColor(Color.gray)
 								Spacer()
 								Text("iOS 14 and above")
 							}
-							HStack{
+							HStack {
 								Text("Developer").foregroundColor(Color.gray)
 								Spacer()
 								Text("Darkbringer")
 							}
-							HStack{
+							HStack {
 								Text("Designer").foregroundColor(Color.gray)
 								Spacer()
 								Text("Darkbringer")
 							}
-							HStack{
+							HStack {
 								Text("Instagram").foregroundColor(Color.gray)
 								Spacer()
 								Text("@MyDevelopmentJourney")
 							}
-							HStack{
+							HStack {
 								Text("Version").foregroundColor(Color.gray)
 								Spacer()
 								Text("1.0.0")
 							}
 						} else {
-							HStack{
+							HStack {
 								Text("Personal message")
 									.foregroundColor(Color.gray)
 								Text("🤌 Happy Coding!")
 							}
 						}
-					}
-				}
-			}
+					} //: SECTION 2
+					NavigationLink(destination: LoginPage(),
+								   label: {
+										Text("Log Out")
+											.font(.system(size: 15, weight: .bold))
+											.foregroundColor(Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
+											.tracking(-0.41)
+											.multilineTextAlignment(.center)
+								   }) //: NAVIGATION LINK
+						
+				} //: FORM
+				.padding(.top, -150)
+				
+			} //: VSTACK
 			.frame(maxWidth: 640)
-		}
+		} //: NAVIGATION VIEW
 		.navigationBarTitle(Text("Settings"), displayMode: .inline)
 	}
 }

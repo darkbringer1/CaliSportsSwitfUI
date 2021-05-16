@@ -8,41 +8,43 @@
 import SwiftUI
 
 struct ExercisesSection: View {
+    let upperBodyArray: [String] = ["Push-Ups","Pull-Ups","Muscle-Ups","Dips","Handstand Push-Ups","Forearm Exercises","Neck Training"]
+    let lowerBodyArray: [String] = ["Squats","Lower Leg Training","Leg Raises"]
+    let coreArray: [String] = ["Bridges","Planks","Front Lever","HumanFlags","Plance","Active Stretching"]
     var body: some View {
         VStack {
             PageTitleLines(pageTitleText: "Upper Body")
-
-            GroupBox {
-                SubtitleButtonLines(subtitleText: "Push-Ups")
-                SubtitleButtonLines(subtitleText: "Pull-Ups")
-                SubtitleButtonLines(subtitleText: "Muscle-Ups")
-                SubtitleButtonLines(subtitleText: "Dips")
-                SubtitleButtonLines(subtitleText: "Handstand Push-Ups")
-                SubtitleButtonLines(subtitleText: "Forearm Exercises")
-                SubtitleButtonLines(subtitleText: "Neck Training")
-            } //: GROUPBOX
-
-            .clipShape(RoundedRectangle(cornerRadius: 15))
-            .padding(.horizontal, 20)
+            ForEach (upperBodyArray, id: \.self) { move in
+                
+                GroupBox{
+                    SubtitleLines(subtitleText: move)
+                }
+                .frame(height: 50, alignment: .center)
+                .clipShape(RoundedRectangle(cornerRadius: 15))
+                .padding(.horizontal, 20)
+            }//:UPPER BODY LOOP
+            
             PageTitleLines(pageTitleText: "Lower Body")
-            GroupBox {
-                SubtitleButtonLines(subtitleText: "Squats")
-                SubtitleButtonLines(subtitleText: "Lower Leg Training")
-                SubtitleButtonLines(subtitleText: "Leg Raises")
-            } //: GROUPBOX
-            .clipShape(RoundedRectangle(cornerRadius: 15))
-            .padding(.horizontal, 20)
+            ForEach (lowerBodyArray, id: \.self) { move in
+                
+                GroupBox{
+                    SubtitleLines(subtitleText: move)
+                }
+                .frame(height: 50, alignment: .center)
+                .clipShape(RoundedRectangle(cornerRadius: 15))
+                .padding(.horizontal, 20)
+            }//:LOWER BODY LOOP
+           
             PageTitleLines(pageTitleText: "Core")
-            GroupBox {
-                SubtitleButtonLines(subtitleText: "Bridges")
-                SubtitleButtonLines(subtitleText: "Planks")
-                SubtitleButtonLines(subtitleText: "Front Lever")
-                SubtitleButtonLines(subtitleText: "HumanFlags")
-                SubtitleButtonLines(subtitleText: "Plance")
-                SubtitleButtonLines(subtitleText: "Active Stretching")
-            } //: GROUPBOX
-            .clipShape(RoundedRectangle(cornerRadius: 15))
-            .padding(.horizontal, 20)
+            ForEach (coreArray, id: \.self) { move in
+                
+                GroupBox{
+                    SubtitleLines(subtitleText: move)
+                }
+                .frame(height: 50, alignment: .center)
+                .clipShape(RoundedRectangle(cornerRadius: 15))
+                .padding(.horizontal, 20)
+            }//:CORE LOOP
         }
     }
 }

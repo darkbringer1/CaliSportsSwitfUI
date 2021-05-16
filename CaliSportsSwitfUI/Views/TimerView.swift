@@ -46,6 +46,9 @@ struct TimerView: View {
 		}
 		.accentColor(.primary)
 		.navigationBarTitle(Text("Timer"), displayMode: .inline)
+		.navigationBarItems(trailing: NavigationLink(destination: SettingsPage(), label: {
+			Image(systemName: "gearshape.2.fill").foregroundColor(.primary)
+		}))
 	}
 	
 	func startTimer() {

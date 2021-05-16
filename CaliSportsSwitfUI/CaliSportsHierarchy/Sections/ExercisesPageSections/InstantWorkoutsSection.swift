@@ -13,25 +13,25 @@ struct InstantWorkoutsSection: View {
 			PageTitleLines(pageTitleText: "Instant Workouts")
 			
 			GroupBox {
-				SubtitleButtonLines(subtitleText: "Perform Routine")
+				SubtitleLines(subtitleText: "Perform Routine")
 			} //: GROUPBOX
 			.frame(height: 50)
 			.clipShape(RoundedRectangle(cornerRadius: 15))
 			.padding(.horizontal, 20)
 			GroupBox {
-				SubtitleButtonLines(subtitleText: "Tabata")
+				SubtitleLines(subtitleText: "Tabata")
 			} //: GROUPBOX
 			.frame(height: 50)
 			.clipShape(RoundedRectangle(cornerRadius: 15))
 			.padding(.horizontal, 20)
 			GroupBox {
-				SubtitleButtonLines(subtitleText: "Bring Sally Up")
+				SubtitleLines(subtitleText: "Bring Sally Up")
 			} //: GROUPBOX
 			.frame(height: 50)
 			.clipShape(RoundedRectangle(cornerRadius: 15))
 			.padding(.horizontal, 20)
 			GroupBox {
-				SubtitleButtonLines(subtitleText: "Tabata")
+				SubtitleLines(subtitleText: "Tabata")
 			} //: GROUPBOX
 			.frame(height: 50)
 			.clipShape(RoundedRectangle(cornerRadius: 15))

@@ -9,7 +9,12 @@ import SwiftUI
 
 struct RoutinesView: View {
     var body: some View {
-        Text("Routines page")
+		VStack {
+			Text("Routines page")
+		}
+		.navigationBarItems(trailing: NavigationLink(destination: SettingsPage(), label: {
+			Image(systemName: "gearshape.2.fill").foregroundColor(.primary)
+		}))
     }
 }
 

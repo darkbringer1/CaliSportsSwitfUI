@@ -13,13 +13,13 @@ struct ScheduledWorkoutsSection: View {
             PageTitleLines(pageTitleText: "Scheduled Workouts")
 
             GroupBox {
-                SubtitleButtonLines(subtitleText: "Today - \("HH:mm")")
+                SubtitleLines(subtitleText: "Today - \("HH:mm")")
             } //: GROUPBOX
             .frame(height: 50)
             .clipShape(RoundedRectangle(cornerRadius: 15))
             .padding(.horizontal, 20)
             GroupBox {
-                SubtitleButtonLines(subtitleText: "Tomorrow - \("HH:mm")")
+                SubtitleLines(subtitleText: "Tomorrow - \("HH:mm")")
             } //: GROUPBOX
             .frame(height: 50)
             .clipShape(RoundedRectangle(cornerRadius: 15))

@@ -21,6 +21,7 @@ struct PageTitleLines: View {
             .frame(alignment: .center)
             //            .shadow(color: .black, radius: 10, x: 0.0, y: 0.0)
             .padding(4)
+            .background(Color.white)
     }
 }
 
