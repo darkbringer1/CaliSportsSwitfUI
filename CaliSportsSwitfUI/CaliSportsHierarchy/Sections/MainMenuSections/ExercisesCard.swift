@@ -10,7 +10,7 @@ import SwiftUI
 struct ExercisesCard: View {
     var body: some View {
 		NavigationLink(
-			destination: ExercisesPage(),
+			destination: ExercisesView(),
 			label: {
 				GroupBox(label: TitleLines(titleText: "Exercises")) {
 					Divider()

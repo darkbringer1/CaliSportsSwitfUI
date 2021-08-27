@@ -24,6 +24,7 @@
 		01D1045D25FCE1D100142ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1045C25FCE1D100142ADA /* ContentView.swift */; };
 		01D1045F25FCE1D300142ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D1045E25FCE1D300142ADA /* Assets.xcassets */; };
 		01D1046225FCE1D300142ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D1046125FCE1D300142ADA /* Preview Assets.xcassets */; };
+		D82A300126D9672000CD7F51 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A300026D9672000CD7F51 /* ExercisesView.swift */; };
 		D88CF99126219ADD0068DD7D /* ExercisesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CF99026219ADD0068DD7D /* ExercisesCard.swift */; };
 		D88CF99526219B1B0068DD7D /* RoutinesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CF99426219B1B0068DD7D /* RoutinesCard.swift */; };
 		D88CF99826219B400068DD7D /* CalendarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CF99726219B400068DD7D /* CalendarCard.swift */; };
@@ -57,6 +58,7 @@
 		01D1045E25FCE1D300142ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01D1046125FCE1D300142ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01D1046325FCE1D300142ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82A300026D9672000CD7F51 /* ExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
 		D88CF99026219ADD0068DD7D /* ExercisesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesCard.swift; sourceTree = "<group>"; };
 		D88CF99426219B1B0068DD7D /* RoutinesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutinesCard.swift; sourceTree = "<group>"; };
 		D88CF99726219B400068DD7D /* CalendarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCard.swift; sourceTree = "<group>"; };
@@ -86,9 +88,9 @@
 		011DCD7025FD2B9A00B36605 /* Individual Lines */ = {
 			isa = PBXGroup;
 			children = (
+				011DCD8425FD522300B36605 /* PageTitleLines.swift */,
 				011DCD7425FD2BD500B36605 /* MainTitlesLines.swift */,
 				011DCD6D25FD2B8C00B36605 /* TitleLines.swift */,
-				011DCD8425FD522300B36605 /* PageTitleLines.swift */,
 				011DCD7125FD2BB900B36605 /* SubtitleButtonLines.swift */,
 				01BD28A425FEAAAF008415FB /* SubtitleLines.swift */,
 			);
@@ -104,6 +106,7 @@
 				D8BFB335261DD39500A76628 /* TrackingView.swift */,
 				01B2E0F8260106DB0069371B /* CalendarView.swift */,
 				D8BFB346261DDA3900A76628 /* TimerView.swift */,
+				D82A300026D9672000CD7F51 /* ExercisesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82A300126D9672000CD7F51 /* ExercisesView.swift in Sources */,
 				01B2E102260114DC0069371B /* CalendarPage.swift in Sources */,
 				011DCD7525FD2BD500B36605 /* MainTitlesLines.swift in Sources */,
 				01B2E0F62601067C0069371B /* RoutinesView.swift in Sources */,
