@@ -46,7 +46,7 @@ struct MainMenuCards: View {
             .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 0)
             .background(Image("beach-volleyball-pattern")
                             .resizable()
-                            .aspectRatio(contentMode: .fill)
+                            .scaledToFill()
                             .edgesIgnoringSafeArea(.all)
             )
         } //: NAVIGATIONVIEW

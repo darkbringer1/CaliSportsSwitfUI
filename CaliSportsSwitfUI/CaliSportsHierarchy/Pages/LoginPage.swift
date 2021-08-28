@@ -84,8 +84,10 @@ struct LoginPage: View {
                                }) //: NAVIGATION LINK
                 Spacer()
             } //: VSTACK
-            .background(Image("clouds-pattern")
-                            .aspectRatio(contentMode: .fit)
+            .background(
+                Image("clouds-pattern")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
                             .edgesIgnoringSafeArea(.all)
                             )
         }
