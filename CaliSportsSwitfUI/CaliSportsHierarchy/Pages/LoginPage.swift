@@ -42,11 +42,11 @@ struct LoginPage: View {
                     .padding(.bottom, 50)
                 Group {
                     // FormLabel
-                    Text("Name/Email")
+                    Text("Email Adress")
                         .font(.system(size: 17, weight: .semibold))
                         .foregroundColor(Color(#colorLiteral(red: 0.31, green: 0.31, blue: 0.31, alpha: 1)))
                         .tracking(-0.41)
-                    TextField("Enter your name", text: $nameTextField)
+                    TextField("Enter your e-mail", text: $nameTextField)
                         .frame(width: 340, height: 60)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .multilineTextAlignment(.center)
